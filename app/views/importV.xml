@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="win">
+    <!-- main -->
+    <View id="container">	    
+    		<View id="titleBar">
+    			<Label id="titleLabel"></Label>
+    			<View id="x" onClick="close"></View>
+    		</View>
+    		<View id="mainView">
+    			<Label id="statusLabel"></Label>
+    		</View>	
+    </View>   
+	</Window>
+</Alloy>

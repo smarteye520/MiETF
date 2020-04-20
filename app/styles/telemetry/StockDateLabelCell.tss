@@ -1,0 +1,13 @@
+"#itemDate": {
+	height: Titanium.UI.SIZE,
+	width: "100"
+}
+
+"#dateLbl": {
+	color : '#52505b',
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	font : {
+		fontFamily : 'AvenirNextCondensed-bold',
+		fontSize : '15',
+	}
+}

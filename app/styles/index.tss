@@ -1,0 +1,14 @@
+".container": {
+	backgroundColor:"transparent"
+}
+"#index": {
+  backgroundImage: 'images/latest/background@2x.jpg',
+  exitOnClose: "true",
+  navBarHidden: "true",
+  orientationModes: [
+		Ti.UI.LANDSCAPE_LEFT,
+		Ti.UI.LANDSCAPE_RIGHT
+  ],
+  statusBarStyle : Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
+  fullscreen:true
+}

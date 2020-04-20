@@ -1,0 +1,24 @@
+<Alloy>
+	<View class="container">
+		<View layout="horizontal" width="Ti.UI.SIZE">
+			
+			<Label id="lblInfo" visible="false">Historical data download \n0% complete...working</Label>
+			<View id="contCircle" width="Ti.UI.SIZE" left="5">
+				<View id="contInternet" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+					<View width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+						<Widget src="de.manumaticx.circularprogress" id="progress" />
+					</View>
+					<!-->
+					<View id="contCount" alpha="0" />
+					<Label id="lblCount" alpha="0"></Label>
+				-->
+				</View>
+				<View id="contNoInternet" visible="false" width="Ti.UI.SIZE">
+					<View id="backCircleNoInternet" class="roundView" />
+					<View id="backBorderNoInternet" class="roundView" />
+					<Label id="lblX"></Label>	
+				</View>
+			</View>
+		</View>
+	</View>
+</Alloy>

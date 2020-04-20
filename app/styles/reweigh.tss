@@ -1,0 +1,186 @@
+"#reweigh": {
+	"top": "110",
+	"zIndex": "1060",
+	"touchEnabled": "true"
+},
+
+"#whiteView": {
+	"backgroundImage": "/images/ifapps/whiteBack.pn8",
+	"height": "662",
+	"width": "810",
+	"top": "0",
+	"left": "0"
+}
+
+"#closeButton": {
+	"width": "32",
+	"height": "32",
+	"right": "32",
+	"top": "32",
+	"backgroundImage": "/images/latest/close_btn.pn8",
+	"zIndex": "1061"
+}
+
+"#infoButton": {
+	"width": "32",
+	"height": "32",
+	"right": "84",
+	"top": "32",
+	"backgroundColor": "#3681AF",
+	"borderRadius" : "5",
+	"zIndex": "1061",
+	"title" : "?",
+	"color" : "white",
+	"font": {fontSize:'22sp',fontFamily:'AvenirNextCondensed-Bold',fontStyle:'normal',fontWeight:'normal'}
+}
+
+"#doneButton": {
+	"width": "144",
+	"height": "32",
+	"bottom": "48",
+	"backgroundGradient" :{type:'linear',
+		colors:['#666666', '#A2A0A5'],
+		startPoint:{x:0,y:0},
+		endPoint:{x:2,y:50}},
+	"borderWidth" : "2",
+	"borderColor" : "#666666", 
+	"borderRadius" : "5",
+	"zIndex": "1061",
+	"title" : "Done",
+	"color" : "white",
+	"font": {fontSize:'14sp',fontFamily:'AvenirNextCondensed-Bold',fontStyle:'normal',fontWeight:'normal'}
+}
+
+"#titleLbl": {
+	"left": "44",
+	"width": "350",
+	"top": "34",
+	"text": "MiETF Reweighing Strategy",
+	"font": {fontSize:'22sp',fontFamily:'AmericanTypewriter',fontStyle:'normal',fontWeight:'normal'}
+}
+
+"#col1strategy": {
+	"height": "168",
+	"left": "44",
+	"top": "208",
+	"width": "208",
+	"layout": "vertical"
+}
+
+"#col2realloc": {
+	"height": "168",
+	"left": "264",
+	"top": "320",
+	"width": "192",
+	"layout": "vertical"
+}
+
+"#col3type": {
+	"height": "168",
+	"left": "464",
+	"top": "400",
+	"width": "160",
+	"layout": "vertical"
+}
+
+"#col4multi": {
+	"height": "168",
+	"left": "648",
+	"top": "450",
+	"width": "160",
+	"layout": "vertical",
+	"zIndex": "1063"
+}
+
+".qstn1V": {
+	"height": "40",
+	"width": "176",
+	"left": "0"
+}
+
+".qstn1": {
+	"color": "white",
+	"textAlign": "center",
+	"style": "Titanium.UI.iPhone.SystemButtonStyle.PLAIN",
+	"borderRadius": "10",
+	"font": {fontFamily:'AvenirNextCondensed-Bold',fontSize:'14sp',fontWeight:'bold'},
+	"backgroundGradient": {type:'linear',colors:['#666666', '#A2A0A5'],startPoint:{x:0,y:0},endPoint:{x:2,y:50},backFillStart:false},
+	"borderWidth": "1",
+	"borderColor": "#666",
+	"width": "176",
+	"left": "0",
+	"height": "32",
+	"bottom": "8",
+	"touchEnabled": "false"
+}
+
+".qstn2V": {
+	"height": "40",
+	"width": "160",
+	"left": "0"
+}
+
+".qstn2": {
+	"color": "white",
+	"textAlign": "center",
+	"style": "Titanium.UI.iPhone.SystemButtonStyle.PLAIN",
+	"borderRadius": "10",
+	"font": {fontFamily:'AvenirNextCondensed-Bold',fontSize:'14sp',fontWeight:'bold'},
+	"backgroundGradient": {type:'linear',colors:['#666666', '#A2A0A5'],startPoint:{x:0,y:0},endPoint:{x:2,y:50},backFillStart:false},
+	"borderWidth": "1",
+	"borderColor": "#666",
+	"width": "160",
+	"left": "0",
+	"height": "32",
+	"bottom": "8",
+	"touchEnabled": "false"
+}
+
+".qstn3V": {
+	"height": "40",
+	"width": "128",
+	"left": "0"
+}
+
+".qstn3": {
+	"color": "white",
+	"textAlign": "center",
+	"style": "Titanium.UI.iPhone.SystemButtonStyle.PLAIN",
+	"borderRadius": "10",
+	"font": {fontFamily:'AvenirNextCondensed-Bold',fontSize:'14sp',fontWeight:'bold'},
+	"backgroundGradient": {type:'linear',colors:['#666666', '#A2A0A5'],startPoint:{x:0,y:0},endPoint:{x:2,y:50},backFillStart:false},
+	"borderWidth": "1",
+	"borderColor": "#666",
+	"width": "128",
+	"left": "0",
+	"height": "32",
+	"bottom": "8",
+	"touchEnabled": "false"
+}
+
+".qstn4V": {
+	"height": "40",
+	"width": "128",
+	"left": "0",
+	"zIndex": "1063"
+}
+
+".qstn4": {
+	"color": "white",
+	"textAlign": "center",
+	"style": "Titanium.UI.iPhone.SystemButtonStyle.PLAIN",
+	"borderRadius": "10",
+	"font": {fontFamily:'AvenirNextCondensed-Bold',fontSize:'14sp',fontWeight:'bold'},
+	"backgroundGradient": {type:'linear',colors:['#666666', '#A2A0A5'],startPoint:{x:0,y:0},endPoint:{x:2,y:50},backFillStart:false},
+	"borderWidth": "1",
+	"borderColor": "#666",
+	"width": "128",
+	"left": "0",
+	"height": "32",
+	"bottom": "8",
+	"touchEnabled": "false"
+}
+
+".label":{
+	font: {fontFamily:'AvenirNextCondensed-Bold',fontSize:'18sp',fontWeight:'bold'}
+}

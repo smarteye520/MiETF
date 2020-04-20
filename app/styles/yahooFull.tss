@@ -1,0 +1,29 @@
+".win" : {
+	fullscreen: true
+}
+
+"#titleBar": {
+	top: 0,
+	height: 40,
+	width: '100%',
+	backgroundColor: '#C0C0C0 '
+}
+
+"#titleLabel": {
+	text: 'Yeehah Finance',
+	font:{fontFamily: 'AvenirNextCondensed-Bold', fontSize: '21sp', fontWeight: 'bold'}
+}
+
+"#x": {
+	backgroundImage:"images/latest/close_btn.pn8",
+	height: 32,
+	width: 32,
+	backgroundColor: 'transparent',
+	right: 16
+}
+
+"#webView": {
+	top: 40,
+	height: '100%',
+	width: '100%'
+}

@@ -1,0 +1,24 @@
+".container" : {
+	height: 32,
+}
+
+"#contDates": {
+	layout: "horizontal",
+	height: Titanium.UI.SIZE,
+	bottom: -3,
+	left: "216" 
+} 
+
+"#itemDate": {
+	height: Titanium.UI.SIZE,
+	width: "100"
+}
+
+"#dateLbl": {
+	color : '#000',
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	font : {
+		fontFamily : 'AvenirNextCondensed-bold',
+		fontSize : '15',
+	}
+}

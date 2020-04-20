@@ -1,0 +1,8 @@
+Info about code
+* Add split value
+ standard.getStrategyClose()
+
+* Add dividend value
+ standard.strategy_tree_walker
+ -- it might need some updates 
+

@@ -1,0 +1,54 @@
+".win" : {
+	fullscreen: true
+}
+
+".container": {
+	backgroundColor: 'black',
+	opacity: '.6',
+	width: '100%',
+	height: '100%'
+}
+
+"#center": {
+	backgroundImage:"images/popup_bg.png",
+	height: 272,
+	width: 464,
+	backgroundColor: 'transparent'
+}
+
+"#text": {
+	color: 'white',
+	font   : { fontFamily: 'AvenirNextCondensed-Regular', fontSize : '31sp'},
+	width: 270,
+	top:50,
+	text: "",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+
+"#ok": {
+	height: 44,
+	width: 100,
+	bottom: 24,
+	borderRadius : 10,
+	borderWidth : 2,
+	textAlign: 'center',
+	borderColor : '#EEE',
+	color : 'black',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '20sp'
+	},
+	backgroundGradient : {
+		type : 'linear',
+		colors : ['#CCCCCC', '#EEEEEE'],
+		startPoint : {
+			x : 0,
+			y : 0
+		},
+		endPoint : {
+			x : 2,
+			y : 100
+		},
+		backFillStart : false
+	}
+}

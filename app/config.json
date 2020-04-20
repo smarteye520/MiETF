@@ -1,0 +1,28 @@
+{
+  "global": {},
+  "env:development": {
+   	"api": {
+   		"host": "https://www.quandl.com/api/v3/datasets/",
+   		"auth_token": "jdiN-fJ_usrxAqzBCDqS"
+  	}
+  },
+  "env:test": {
+  	"api": {
+   		"host": "https://www.quandl.com/api/v3/datasets/",
+   		"auth_token": "jdiN-fJ_usrxAqzBCDqS"
+  	}
+  },
+  "env:production": {
+  	"api": {
+   		"host": "https://www.quandl.com/api/v3/datasets/",
+   		"auth_token": "jdiN-fJ_usrxAqzBCDqS"
+  	}
+  },
+  "os:android": {},
+  "os:blackberry": {},
+  "os:ios": {},
+  "os:mobileweb": {},
+  "dependencies": {
+    "de.manumaticx.circularprogress": "*"
+  }
+}

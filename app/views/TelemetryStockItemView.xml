@@ -1,0 +1,23 @@
+<Alloy>
+	<View class="container">
+		<View width="216" left="0">
+			<View width="240" left="0">
+				<Button id="btn" class="btn">
+				</Button>
+			</View>
+		</View>
+		
+		<Label id="ticker" />
+		
+		<View id="contValues">
+		</View>
+		
+		<View width="15" right="0">
+			<View width="40" right="0">
+				<Button id="btnRight" class="btn">
+				</Button>
+			</View>
+		</View>
+		
+	</View>
+</Alloy>

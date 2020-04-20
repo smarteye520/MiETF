@@ -1,0 +1,173 @@
+<h1>Ti.Canvas.View</h1>
+
+<h2>Description</h2>
+
+<p>Gives you a canvas upon which to draw.</p>
+
+<h2>Properties</h2>
+
+<p>This view has all of the same properties as the core <a href="http://developer.appcelerator.com/apidoc/mobile/latest/Titanium.UI.View-object">Ti.UI.View</a>.</p>
+
+<h2>Methods</h2>
+
+<h3>arc(float x, float y, float radius, float startAngle, float endAngle, int clockwise)</h3>
+
+<p>Add an arc of a circle to the context's path, possibly preceded by a
+   straight line segment. 'x, y' is the center of the arc; 'radius' is its
+   radius; 'startAngle' is the angle to the first endpoint of the arc;
+   'endAngle' is the angle to the second endpoint of the arc; and
+   'clockwise' is 1 if the arc is to be drawn clockwise, 0 otherwise.
+   'startAngle' and 'endAngle' are measured in radians.</p>
+
+<h3>arcTo(float x1, float y1, float x2, float y2, float radius)</h3>
+
+<p>Add an arc of a circle to the context's path, possibly preceded by a
+   straight line segment. 'radius' is the radius of the arc. The arc is
+   tangent to the line from the current point to 'x1, y1', and the line
+   from 'x1, y1' to 'x2, y2'.</p>
+
+<h3>begin</h3>
+
+<p>Start queuing up operations (like filling a rectangle, drawing aline, etc). Call this before calling any other methods or setting any properties on this object.</p>
+
+<h3>beginPath()</h3>
+
+<p>Starts a path.</p>
+
+<h3>bezierCurveTo(float cp1x, float cp1y, float cp2x, float cp2y, float x, float y)</h3>
+
+<p>Append a cubic Bezier curve from the current point to 'x,y', with
+   control points 'cp1x, cp1y' and 'cp2x, cp2y'.</p>
+
+<h3>clearRect(float x, float y, float width, float height)</h3>
+
+<p>Clears a rectangle.</p>
+
+<h3>clip()</h3>
+
+<p>Intersect the context's path with the current clip path and use the
+   resulting path as the clip path for subsequent rendering operations. Use
+   the winding-number fill rule for deciding what's inside the path.</p>
+
+<h3>commit</h3>
+
+<p>Ends the current set of operations, and flags the view as needing to be drawn.</p>
+
+<h3>closePath()</h3>
+
+<p>Closes a path.</p>
+
+<h3>drawImage(float x, float y, float width, float height, Object image)</h3>
+
+<p>Draw 'image' in the rectangular area specified by 'rect' in the context
+   'c'. The image is scaled, if necessary, to fit into 'rect'. 'image' can be a view, blob, or file.</p>
+
+<h3>font(string name, float size)</h3>
+
+<p>Attempts to find the font named <code>name' and, if successful, sets it as the
+   font in the current graphics state and sets the font size in the
+   current graphics state to</code>size'.</p>
+
+<h3>fill()</h3>
+
+<p>Fills the drawn path.</p>
+
+<h3>fillRect(float x, float y, float width, float height)</h3>
+
+<p>Fills a rectangle.</p>
+
+<h3>fillStyle(string color)</h3>
+
+<p>Set the current fill color space.</p>
+
+<h3>fillText(string text, float x, float y)</h3>
+
+<p>Draw 'text', a string of 'length' bytes, at the point 'x, y',
+   specified in user space. Each byte of the string is
+   mapped through the encoding vector of the current font to obtain the
+   glyph to display.</p>
+
+<h3>fillEllipse(float x, float y, float width, float height)</h3>
+
+<p>Fills an ellipse.</p>
+
+<h3>globalAlpha(float alpha)</h3>
+
+<p>Set the alpha value in the current graphics state to alpha.</p>
+
+<h3>globalCompositeOperation(string mode)</h3>
+
+<p>Set the blend mode to 'mode'. Can be any of the following:</p>
+
+<ul>
+<li>copy</li>
+<li>destination-atop</li>
+<li>destination-in</li>
+<li>destination-out</li>
+<li>destination-over</li>
+<li>lighter</li>
+<li>source-atop</li>
+<li>source-in</li>
+<li>source-out</li>
+<li>source-over</li>
+<li>xor</li>
+<li>normal</li>
+</ul>
+
+<h3>lineTo(float x, float y)</h3>
+
+<p>Draws a line from the last drawn location to the specified location.</p>
+
+<h3>lineCap(string cap)</h3>
+
+<p>Set the line cap in the current graphics state to `cap'.</p>
+
+<ul>
+<li>butt</li>
+<li>round</li>
+<li>square</li>
+</ul>
+
+<h3>lineJoin</h3>
+
+<p>Set the line join in the current graphics state to `join'.</p>
+
+<ul>
+<li>miter</li>
+<li>round</li>
+<li>bevel</li>
+</ul>
+
+<h3>lineWidth(float width)</h3>
+
+<p>Set the line width in the current graphics state to `width'.</p>
+
+<h3>moveTo(float x, float y)</h3>
+
+<p>Moves to the specified location.</p>
+
+<h3>quadraticCurveTo(float cpx, float xpy, float x, float y)</h3>
+
+<p>Append a quadratic curve from the current point to 'x, y', with control
+   point 'cpx, cpy'.</p>
+
+<h3>shadow(float xOffset, float yOffset, float blur, string color)</h3>
+
+<p>After a shadow is specified, all objects drawn subsequently will be shadowed. To turn off shadowing, set the shadow
+color to a fully transparent color (or pass NULL as the color).</p>
+
+<h3>stroke()</h3>
+
+<p>Stroke the context's path.</p>
+
+<h3>strokeStyle(string color)</h3>
+
+<p>Set the current stroke color space.</p>
+
+<h3>strokeRect(float x, float y, float width, float height)</h3>
+
+<p>Strokes the border of a rectangle.</p>
+
+<h2>Events</h2>
+
+<p>This view has all of the same events as the core <a href="http://developer.appcelerator.com/apidoc/mobile/latest/Titanium.UI.View-object">Ti.UI.View</a>.</p>

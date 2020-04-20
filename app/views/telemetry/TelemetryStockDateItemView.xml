@@ -1,0 +1,6 @@
+<Alloy>
+	<View class="container">
+		<View id="contDates">
+		</View>
+	</View>
+</Alloy>

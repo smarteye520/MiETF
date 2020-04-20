@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="win" class="win">
+		<View class="container">
+
+  	</View>
+    <!-- main -->
+    <View id="center">
+    	  <Label id="text" />
+    		<Label id="ok" onClick="close" text="Ok" />
+    </View>
+    
+	</Window>
+</Alloy>

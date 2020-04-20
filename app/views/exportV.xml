@@ -1,0 +1,18 @@
+<Alloy>
+	<Window class="win">
+        <!-- main -->
+        <View id="container">	    
+        		<View id="titleBar">
+        			<Label id="titleLabel"></Label>
+        			<View id="x" onClick="close"></View>
+        		</View>
+        		<ScrollView id="mainView">
+                    <TextField id="friend_email" />
+                    <ImageView id="export_image" top="8" height="40%"  />
+                    <View id="etf_contents" height="Ti.UI.SIZE" left="30%" layout="vertical"></View>
+                    <Button id="send_email" top="8">Submit</Button>
+                    <View height="1%"></View>
+        		</ScrollView>
+        </View>   
+	</Window>
+</Alloy>

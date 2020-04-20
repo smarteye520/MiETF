@@ -1,0 +1,24 @@
+<Alloy>
+	<View class="container">
+		<View width="30%">
+			<View class="wrapperTexts">
+				<View class="wrapperFont">
+					<Label id="stockPercent" class="fontLbl"></Label>
+				</View>
+				<View class="wrapperFont">
+					<Label id="lblInfoPercent" visible="false" class="fontLbl2" top="0">1</Label>
+				</View>
+			</View>
+		</View>
+		<View width="70%">
+			<View class="wrapperTexts">
+				<View class="wrapperFont">
+					<Label id="stockValue" class="fontLbl"></Label>
+				</View>
+				<View class="wrapperFont">
+					<Label id="lblInfoValue" visible="false" class="fontLbl2" top="0">2</Label>
+				</View>
+			</View>
+		</View>
+	</View>
+</Alloy>

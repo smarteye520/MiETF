@@ -1,0 +1,54 @@
+"#mainHolder": {
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE
+}
+
+"#holder": {
+	width: "30dp",
+	height: "30dp",
+	borderRadius: 15
+}
+
+"#layer1": {
+	backgroundColor:"#4ba818"
+}
+
+"#layer2": {
+	left: 0,
+	width: "50%",
+	anchorPoint: {
+		x: 1,
+		y: 0.5
+	}
+}
+
+"#layer3": {
+	right: 0,
+	width: "50%",
+	anchorPoint: {
+		x: 0,
+		y: 0.5
+	}
+}
+
+"#layer4": {
+	right: 0,
+	width: "50%",
+	anchorPoint: {
+		x: 0,
+		y: 0.5
+	}
+}
+
+"#topper": {
+	borderRadius: 15
+}
+
+"#percentText": {
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	font: {
+		fontSize : '13',
+		fontFamily : 'AvenirNextCondensed-Regular'
+	},
+	color: "#fff"
+}

@@ -1,0 +1,54 @@
+".win" : {
+	fullscreen: true
+}
+
+".container": {
+	backgroundColor: 'black',
+	opacity: '.6',
+	width: '100%',
+	height: '100%'
+}
+
+"#center": {
+	backgroundImage:"images/popup_bg.png",
+	height: 272,
+	width: 464,
+	backgroundColor: 'transparent'
+}
+
+"#text": {
+	color: 'white',
+	font   : { fontFamily: 'AvenirNextCondensed-Regular', fontSize : '31sp'},
+	width: 270,
+	text: "Are you sure you want to delete the component “Bogon”",
+	top: 24,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+
+"#text2": {
+	color: 'white',
+	font   : { fontFamily: 'AvenirNextCondensed-Regular', fontSize : '31sp'},
+	width: 400,
+	text: "AAPL?",
+	top: 108,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+
+"#checkmark": {
+	backgroundImage:"images/yes_btn.png",
+	height: 64,
+	width: 64,
+	backgroundColor: 'transparent',
+	bottom: 24,
+	left: 152
+}
+
+
+"#x": {
+	backgroundImage:"images/no_btn.png",
+	height: 64,
+	width: 64,
+	backgroundColor: 'transparent',
+	bottom: 24,
+	right: 152
+}

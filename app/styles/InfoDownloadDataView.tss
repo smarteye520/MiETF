@@ -1,0 +1,66 @@
+".container" : {
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	right: 12
+}
+
+"#lblInfo": {
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	font: {
+		fontSize : '13',
+		fontFamily : 'AvenirNextCondensed-Regular'
+	},
+	color: "#fff"
+}
+
+"#lblCount": {
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	font: {
+		fontSize : '13',
+		fontFamily : 'AvenirNextCondensed-Regular'
+	},
+	color: "#fff"
+}
+
+"#lblX": {
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	font: {
+		fontSize : '13',
+		fontFamily : 'AvenirNextCondensed-Regular'
+	},
+	color: "#000"
+}
+
+"#contCount": {
+	width: "30dp", 
+	height: "30dp",
+	borderColor: "#6fbd44",
+	borderRadius: "15",
+	borderWidth: "4dp"	
+}
+
+".roundView": {
+	width: "30dp", 
+	height: "30dp",
+	borderRadius: "15",
+}
+
+"#backBorderNoInternet": {
+	opacity: 0.2,
+	borderWidth: "4dp"	
+}
+
+"#progress" : {
+	margin: 0,
+	backgroundColor:'#000',
+	progressColor:'#2d9bd9',
+	progressBackgroundColor:'#000',
+	progressWidth: 7,
+	showText: true,
+	color: "#fff",
+	font: {
+		fontSize: 13,
+		fontFamily: 'AvenirNextCondensed-Regular',
+		textAlign: "center"
+	}
+}

@@ -1,0 +1,35 @@
+".win": {
+	"fullscreen": "true"
+}
+
+"#titleBar": {
+	"top": "0",
+	"height": "40",
+	"width": "100%",
+	"backgroundColor": "#C0C0C0",
+}
+
+"#titleLabel": {
+	"text": "ExportMiETF",
+	"font": {fontFamily:'AvenirNextCondensed-Bold',fontSize:'21sp',fontWeight:'bold'}
+}
+
+"#x": {
+	"backgroundImage": "images/latest/close_btn.pn8",
+	"height": "32",
+	"width": "32",
+	"backgroundColor": "transparent",
+	"right": "16"
+}
+
+"#mainView": {
+	"top": "40",
+	"layout":"vertical",
+//	"height": "100%",
+//	"width": "100%",
+	"backgroundColor": "white",
+}
+
+"#statusLabel": {
+	"font": {fontFamily:'AvenirNextCondensed-Bold',fontSize:'21sp',fontWeight:'bold'}
+}

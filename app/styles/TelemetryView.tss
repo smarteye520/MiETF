@@ -1,0 +1,411 @@
+"#self" : {
+	left : '0%',
+	width : '100%',
+	touchEnabled : true,
+	zIndex : 0,
+	top : 0,
+	bubbleParent : false,
+	height : 544,
+	opacity : 0,
+	zIndex : 10
+}
+
+"#pieTitleButton": {
+	style : Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	borderRadius : 10,
+	backgroundGradient : {
+		type : 'linear',
+		colors : ['#333234', '#a0a1a3'],
+		startPoint : {
+			x : 0,
+			y : 0
+		},
+		endPoint : {
+			x : 2,
+			y : 100
+		},
+		backFillStart : false
+	},
+	borderWidth : 1,
+	borderColor : '#666',
+	width : 288,
+	height : 48,
+	top : 32,
+	left : 32,
+	zIndex : 20
+}
+
+"#pieTitleLabel": {
+	color : 'white',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '22sp',
+		fontWeight : 'bold'
+	},
+	text : 'Test',
+	textAlign : Ti.UI.TEXT_ALIGNMENT_LEFT,
+	touchEnabled : false,
+	height : 48,
+	top : 32,
+	left : 48,
+	zIndex : 20
+}
+
+"#sv": {
+	touchEnabled : true,
+	contentWidth : 'auto',
+	contentHeight : 'auto',
+	top : 0,
+	left : 0,
+	showVerticalScrollIndicator : true,
+	showHorizontalScrollIndicator : true,
+	scrollingEnabled : false
+}
+
+"#whiteView": {
+	height : '100%',
+	width : '100%',
+	top : 0,
+	backgroundImage : 'images/ifapps/telemetryPaper.pn8',
+	left : 0,
+	touchEnabled : true
+}
+
+"#titleLbl": {
+	top : 62,
+	left : 64,
+	width : 600,
+	text : 'MiETF Engine Telemetry',
+	color : '#57585d', 
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '21sp',
+		fontWeight : 'bold',
+	},
+	zIndex : 62,
+	opacity : 0
+}
+
+"#mietfNameLbl": {
+	top : 108,
+	left : 64,
+	width : 600,
+	text : '',
+	color : '#57585d', //'#57585d',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '16sp',
+		fontWeight : 'bold'
+	},
+	zIndex : 62,
+	opacity : 0
+}
+
+"#chartPeriod": {
+	top : 126,
+	left : 64,
+	width : 600,
+	text : '',
+	color : '#57585d',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '13sp',
+		fontWeight : 'bold'
+	},
+	zIndex : 62,
+	opacity : 0
+}
+
+"#startValueLbl": {
+	top : 142,
+	left : 64,
+	width : 600,
+	text : 'Start Value: ',
+	color : '#57585d', //'#57585d',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '13sp',
+		fontWeight : 'bold'
+	},
+	zIndex : 62,
+	opacity : 0
+}
+
+"#endValueLbl": {
+	top :  158,
+	left : 64,
+	width : 600,
+	text : 'End Value: ',
+	color : '#57585d', //'#57585d',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '13sp',
+		fontWeight : 'bold'
+	},
+	zIndex : 62,
+	opacity : 0
+}
+
+"#percentageChangeLbl": {
+	top : 174,
+	left : 64,
+	width : 600,
+	text : 'Percentage Change: ',
+	color : '#57585d', //'#57585d',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '13sp',
+		fontWeight : 'bold'
+	},
+	zIndex : 62,
+	opacity : 0
+}
+
+"#highLowLbl": {
+	top : 190,
+	left : 64,
+	width : 600,
+	text : 'High Value: ',
+	color : '#57585d', //'#57585d',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '13sp',
+		fontWeight : 'bold'
+	},
+	zIndex : 62,
+	opacity : 0
+}
+
+"#startInvestValueLbl": {
+	top : 224,
+	right : 400,
+	width : Ti.UI.SIZE,
+	text : 'Investment Value',
+	color : '#57585d', //'#57585d',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '13sp',
+		fontWeight : 'bold'
+	},
+	zIndex : 62,
+	opacity : 0
+}
+
+"#endInvestValueLbl": {
+		top : 224,
+		right : 85,
+		width : Ti.UI.SIZE,
+		text : 'Investment Value',
+		color : '#57585d', //'#57585d',
+		font : {
+			fontFamily : 'AvenirNextCondensed-Bold',
+			fontSize : '13sp',
+			fontWeight : 'bold'
+		},
+		zIndex : 62,
+		opacity : 0
+}
+
+"#unitsPurchasedLbl": {
+	top : 224,
+	right : 276,
+	width : Ti.UI.SIZE,
+	text : '# of Units Purchased',
+	color : '#57585d', //'#57585d',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '13sp',
+		fontWeight : 'bold'
+	},
+	zIndex : 62,
+	opacity : 0
+}
+
+"#ComponentsSV": {
+	touchEnabled : true,
+	contentWidth : 'auto',
+	contentHeight : 'auto',
+	top : 88,
+	left : 32,
+	right : 64,
+	height : 382,
+	showVerticalScrollIndicator : true,
+	showHorizontalScrollIndicator : true,
+	scrollingEnabled : true,
+	zIndex : 5,
+	width : 632
+}
+
+"#footerView": {
+	left : 32,
+	width : Ti.UI.SIZE,
+	height : Ti.UI.SIZE,
+	bottom : 16,
+	layout : 'horizontal'
+}
+	
+"#footNote1": {
+	//backgroundColor : '#dcdee0',
+	left : 0,
+	width : 96,
+	height : 48
+}
+
+"#footNote2": {
+	//backgroundColor : '#dcdee0',
+	left : 20,
+	width : 96,
+	height : 48
+}
+
+"#footNote3": {
+	backgroundColor : '#dcdee0',
+	left : 20,
+	width : 96,
+	height : 48
+}
+
+"#startDateLbl1": {
+	top : 6,
+	width : Ti.UI.SIZE,
+	text : '',
+	color : '#57585d', //'#57585d',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '13sp',
+		fontWeight : 'bold'
+	},
+	zIndex : 62
+}
+
+"#startDateLbl2": {
+	top : 6,
+	width : Ti.UI.SIZE,
+	text : '',
+	color : '#57585d', //'#57585d',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '13sp',
+		fontWeight : 'bold'
+	},
+	zIndex : 62
+}
+
+"#endDateLbl": {
+	top : 6,
+	width : Ti.UI.SIZE,
+	text : '',
+	color : '#57585d', //'#57585d',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '13sp',
+		fontWeight : 'bold'
+	},
+	zIndex : 62
+}
+
+"#allocLbl": {
+	bottom : 6,
+	width : Ti.UI.SIZE,
+	text : 'Allocation %',
+	left: 10,
+	color : '#57585d', //'#57585d',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '17',
+		fontWeight : 'bold'
+	},
+	zIndex : 62
+}
+
+"#foot1Lbl": {
+	top : 15,
+	left : 1,
+	width : Ti.UI.SIZE,
+	text : '1',
+	color : '#57585d', //'#57585d',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '14sp',
+		fontWeight : 'bold'
+	},
+	zIndex : 62
+}
+
+"#startUnitValueLbl": {
+	bottom : 6,
+	width : Ti.UI.SIZE,
+	left: 10,
+	text : 'Unit Prices',
+	color : '#57585d', //'#57585d',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '17',
+		fontWeight : 'bold'
+	},
+	zIndex : 62
+}
+
+"#foot2Lbl": {
+	top : 15,
+	left : 1,
+	width : Ti.UI.SIZE,
+	text : '2',
+	color : '#57585d', //'#57585d',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '14sp',
+		fontWeight : 'bold'
+	},
+	zIndex : 62
+}
+
+"#foot3Lbl": {
+	top : 0,
+	left : 1,
+	width : Ti.UI.SIZE,
+	text : '3',
+	color : '#57585d', //'#57585d',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '14sp',
+		fontWeight : 'bold'
+	},
+	zIndex : 62
+}
+
+"#itemsTable": {
+	layout: "vertical",
+	left : 0,
+	right : 0,
+	top: 0
+}
+
+"#ComponentsTblView": {
+	top : 0,
+	left : 0,
+	right : 0,
+	height : Ti.UI.SIZE,
+	zIndex : 62,
+	layout : 'Composite',
+	width : 432
+}
+
+"#baseImage": {
+	width : 768,
+	height : '100%',
+	image : 'images/ifapps/telemetryPaperCut.pn8'
+}
+
+"#cropView": {
+	top : -10,
+	width : 432,
+	bottom : 0,
+	zIndex : 6
+}
+
+"#closeButton": {
+	top : 28,
+	right : 32,
+	zIndex : 12
+}

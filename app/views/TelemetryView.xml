@@ -1,0 +1,77 @@
+<Alloy>
+	<View id="self">
+		<Button id="pieTitleButton"></Button>
+		<Label id="pieTitleLabel"></Label>
+		<View id="sv">
+			<View id="whiteView">
+				<Label id="titleLbl" />
+				<Label id="mietfNameLbl" />
+				<Label id="chartPeriod" />
+				<Label id="startValueLbl" />
+				<Label id="endValueLbl" />
+				<Label id="percentageChangeLbl" />
+				<Label id="highLowLbl" />
+				<Label id="startInvestValueLbl" />
+				<Label id="endInvestValueLbl" />
+				<Label id="unitsPurchasedLbl" />
+			
+				<ScrollView id="ComponentsSV">
+					<View id="ComponentsTblView">
+						<View id="cropView1">
+							<ImageView id="baseImage1" />
+						</View>
+					</View>	
+					<View id="itemsTable" />
+				</ScrollView>
+				
+				<View id="footerView">
+					<View id="footNote1">
+						<Label id="startDateLbl1" />
+						<Label id="allocLbl" />
+						<Label id="foot1Lbl" />
+					</View>
+					<View id="footNote2">
+						<Label id="startDateLbl2" />
+						<Label id="startUnitValueLbl" />
+						<Label id="foot2Lbl" />
+					</View>
+				</View>
+				
+				<Button id="closeButton"></Button>
+				
+			</View>
+		</View>
+	</View>
+</Alloy>
+
+
+
+
+
+	
+
+	
+
+
+
+
+	
+
+
+	
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+	

@@ -1,0 +1,34 @@
+".container" : {
+	layout: "horizontal",
+	backgroundColor: "#57585d",
+	height: 32,
+	width: 100
+}
+
+".fontLbl": {
+	color : '#fff',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '13sp',
+		fontWeight : 'bold'
+	}
+}
+
+".fontLbl2": {
+	color : '#fff',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '11sp',
+	}
+}
+
+".wrapperTexts": {
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.FILL,
+	layout: "horizontal"
+}
+
+".wrapperFont": { 
+	height: Ti.UI.FILL,
+	width: Ti.UI.SIZE
+}

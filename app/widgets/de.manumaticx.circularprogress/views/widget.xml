@@ -1,0 +1,22 @@
+<Alloy>
+	<View id="container">
+		<View id="baselayer">
+			<View id="progresslayer" />
+			<View id="leftlayer" />
+			<View id="rotationlayer">
+				<View id="innerrotationlayer" />
+			</View>
+			<View id="rightlayer" />
+			<View id="centerlayer">
+				<Label id="label" textAlign="center" />
+			</View>
+			
+			
+			<View width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+				<View id="circelInterior" width="26" height="26" borderWidth="1" borderColor="#6fbd44" borderRadius="13" />
+				<View id="circleExterior" width="32" height="32" borderWidth="1" borderColor="#6fbd44" borderRadius="16" />
+			</View>
+			
+		</View>
+	</View>
+</Alloy>

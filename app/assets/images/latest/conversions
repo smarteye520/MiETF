@@ -1,0 +1,493 @@
+composite -gravity center search_ico2@2x.png ico_blank@2x.png search_ico@2x.png 
+composite -gravity center setting_ico@2x.png ico_blank@2x.png gear_ico@2x.png 
+composite -gravity center chat_ico@2x.png ico_blank@2x.png chat_ico@2x.png 
+composite -gravity center info_ico@2x.png ico_blank@2x.png info_ico@2x.png 
+
+convert pad_0_round@2x.png -resize 72x72 pad_0_round.png
+convert pad_1_round@2x.png -resize 72x72 pad_1_round.png
+convert pad_2_round@2x.png -resize 72x72 pad_2_round.png
+convert pad_3_round@2x.png -resize 72x72 pad_3_round.png
+convert pad_4_round@2x.png -resize 72x72 pad_4_round.png
+convert pad_5_round@2x.png -resize 72x72 pad_5_round.png
+convert pad_6_round@2x.png -resize 72x72 pad_6_round.png
+convert pad_7_round@2x.png -resize 72x72 pad_7_round.png
+convert pad_8_round@2x.png -resize 72x72 pad_8_round.png
+convert pad_9_round@2x.png -resize 72x72 pad_9_round.png
+
+
+convert pad_0@2x.png -resize 72x72 pad_0.png
+convert pad_1@2x.png -resize 72x72 pad_1.png
+convert pad_2@2x.png -resize 72x72 pad_2.png
+convert pad_3@2x.png -resize 72x72 pad_3.png
+convert pad_4@2x.png -resize 72x72 pad_4.png
+convert pad_5@2x.png -resize 72x72 pad_5.png
+convert pad_6@2x.png -resize 72x72 pad_6.png
+convert pad_7@2x.png -resize 72x72 pad_7.png
+convert pad_8@2x.png -resize 72x72 pad_8.png
+convert pad_9@2x.png -resize 72x72 pad_9.png
+convert pad_dial@2x.png -resize 72x72 pad_dial.png
+convert pad_back@2x.png -resize 72x72 pad_back.png
+
+convert pad_dot@2x.png -resize 24x24 pad_dot.png
+convert pad_dot_active@2x.png -resize 24x24 pad_dot_active.png
+
+
+convert pad_dial_round@2x.png -resize 72x72 pad_dial_round.pngconvert pad_back_round@2x.png -resize 72x72 pad_back_round.png
+
+
+convert pad_dot_active_yellow@2x.png -resize 50x48 pad_dot_active_1@2x.png
+convert pad_dot_active_cyan@2x.png -resize 50x48 pad_dot_active_2@2x.png
+convert pad_dot_active_blue@2x.png -resize 50x48 pad_dot_active_3@2x.png
+convert pad_dot_active_orange@2x.png -resize 50x48 pad_dot_active_4@2x.png
+convert pad_dot_active_pink@2x.png -resize 50x48 pad_dot_active_5@2x.png
+convert pad_dot_active_lavender@2x.png -resize 50x48 pad_dot_active_6@2x.png
+convert pad_dot_active_red@2x.png -resize 50x48 pad_dot_active_7@2x.png
+convert pad_dot_active_black@2x.png -resize 50x48 pad_dot_active_8@2x.png
+convert pad_dot_active_green@2x.png -resize 50x48 pad_dot_active_9@2x.png
+convert pad_dot_active_purple@2x.png -resize 50x48 pad_dot_active_10@2x.png
+
+
+convert pad_dot_active_1@2x.png -resize 25x24 pad_dot_active_1.png
+convert pad_dot_active_2@2x.png -resize 25x24 pad_dot_active_2.png
+convert pad_dot_active_3@2x.png -resize 25x24 pad_dot_active_3.png
+convert pad_dot_active_4@2x.png -resize 25x24 pad_dot_active_4.png
+convert pad_dot_active_5@2x.png -resize 25x24 pad_dot_active_5.png
+convert pad_dot_active_6@2x.png -resize 25x24 pad_dot_active_6.png
+convert pad_dot_active_7@2x.png -resize 25x24 pad_dot_active_7.png
+convert pad_dot_active_8@2x.png -resize 25x24 pad_dot_active_8.png
+convert pad_dot_active_9@2x.png -resize 25x24 pad_dot_active_9.png
+convert pad_dot_active_10@2x.png -resize 25x24 pad_dot_active_10.png
+
+
+convert vault_yellow_lg@2x.png -resize 1184x1184 vault_1_lg@2x.png
+convert vault_cyan_lg@2x.png -resize 1184x1184 vault_2_lg@2x.png
+convert vault_blue_lg@2x.png -resize 1184x1184 vault_3_lg@2x.png
+convert vault_orange_lg@2x.png -resize 1184x1184 vault_4_lg@2x.png
+convert vault_pink_lg@2x.png -resize 1184x1184 vault_5_lg@2x.png
+convert vault_lavender_lg@2x.png -resize 1184x1184 vault_6_lg@2x.png
+convert vault_red_lg@2x.png -resize 1184x1184 vault_7_lg@2x.png
+convert vault_black_lg@2x.png -resize 1184x1184 vault_8_lg@2x.png
+convert vault_green_lg@2x.png -resize 1184x1184 vault_9_lg@2x.png
+convert vault_purple_lg@2x.png -resize 1184x1184 vault_10_lg@2x.png
+
+convert folder1_yellow@2x.png -resize 266x312 folder_1_sm@2x.png
+convert folder1_cyan@2x.png -resize 266x312 folder_2_sm@2x.png
+convert folder1_blue@2x.png -resize 266x312 folder_3_sm@2x.png
+convert folder1_orange@2x.png -resize 266x312 folder_4_sm@2x.png
+convert folder1_pink@2x.png -resize 266x312 folder_5_sm@2x.png
+convert folder1_lavender@2x.png -resize 266x312 folder_6_sm@2x.png
+convert folder1_red@2x.png -resize 266x312 folder_7_sm@2x.png
+convert folder1_black@2x.png -resize 266x312 folder_8_sm@2x.png
+convert folder1_green@2x.png -resize 266x312 folder_9_sm@2x.png
+convert folder1_purple@2x.png -resize 266x312 folder_10_sm@2x.png
+
+convert folder1_yellow@2x.png -resize 133x156 folder_1_sm.png
+convert folder1_cyan@2x.png -resize 133x156 folder_2_sm.png
+convert folder1_blue@2x.png -resize 133x156 folder_3_sm.png
+convert folder1_orange@2x.png -resize 133x156 folder_4_sm.png
+convert folder1_pink@2x.png -resize 133x156 folder_5_sm.png
+convert folder1_lavender@2x.png -resize 133x156 folder_6_sm.png
+convert folder1_red@2x.png -resize 133x156 folder_7_sm.png
+convert folder1_black@2x.png -resize 133x156 folder_8_sm.png
+convert folder1_green@2x.png -resize 133x156 folder_9_sm.png
+convert folder1_purple@2x.png -resize 133x156 folder_10_sm.png
+
+convert btn_yellow@2x.png -resize 248x248 btn_1@2x.png
+convert btn_cyan@2x.png -resize 248x248 btn_2@2x.png
+convert btn_blue_@2x.png -resize 248x248 btn_3@2x.png
+convert btn_orange@2x.png -resize 248x248 btn_4@2x.png
+convert btn_pink@2x.png -resize 248x248 btn_5@2x.png
+convert btn_lavender@2x.png -resize 248x248 btn_6@2x.png
+convert btn_red@2x.png -resize 248x248 btn_7@2x.png
+convert btn_black@2x.png -resize 248x248 btn_8@2x.png
+convert btn_green@2x.png -resize 248x248 btn_9@2x.png
+convert btn_purple@2x.png -resize 248x248 btn_10@2x.png
+
+convert btn_yellow@2x.png -resize 124x124 btn_1.png
+convert btn_cyan@2x.png -resize 124x124 btn_2.png
+convert btn_blue_@2x.png -resize 124x124 btn_3.png
+convert btn_orange@2x.png -resize 124x124 btn_4.png
+convert btn_pink@2x.png -resize 124x124 btn_5.png
+convert btn_lavender@2x.png -resize 124x124 btn_6.png
+convert btn_red@2x.png -resize 124x124 btn_7.png
+convert btn_black@2x.png -resize 124x124 btn_8.png
+convert btn_green@2x.png -resize 124x124 btn_9.png
+convert btn_purple@2x.png -resize 124x124 btn_10.png
+
+
+#convert vaultDoor sizes
+convert vaultDoor_lg@2x.png -resize 1048x1048 vaultDoor_md@2x.png
+convert vaultDoor_lg@2x.png -resize 524x524 vaultDoor_md.png
+convert vaultDoor_lg@2x.png -resize 592x592 vaultDoor_lg.png
+convert vaultDoor_lg@2x.png -resize 352x352 vaultDoor_sm@2x.png
+convert vaultDoor_lg@2x.png -resize 176x176 vaultDoor_sm.png
+
+convert vaultHandle_lg@2x.png -resize 1048x1048 vaultHandle_md@2x.png
+convert vaultHandle_lg@2x.png -resize 524x524 vaultHandle_md.png
+convert vaultHandle_lg@2x.png -resize 592x592 vaultHandle_lg.png
+convert vaultHandle_lg@2x.png -resize 352x352 vaultHandle_sm@2x.png
+convert vaultHandle_lg@2x.png -resize 176x176 vaultHandle_sm.png
+
+#convert vault sizes
+
+convert vault_1_lg@2x.png -resize 592x592 vault_1_lg.png
+convert vault_2_lg@2x.png -resize 592x592 vault_2_lg.png
+convert vault_3_lg@2x.png -resize 592x592 vault_3_lg.png
+convert vault_4_lg@2x.png -resize 592x592 vault_4_lg.png
+convert vault_5_lg@2x.png -resize 592x592 vault_5_lg.png
+convert vault_6_lg@2x.png -resize 592x592 vault_6_lg.png
+convert vault_7_lg@2x.png -resize 592x592 vault_7_lg.png
+convert vault_8_lg@2x.png -resize 592x592 vault_8_lg.png
+convert vault_9_lg@2x.png -resize 592x592 vault_9_lg.png
+convert vault_10_lg@2x.png -resize 592x592 vault_10_lg.png
+
+
+convert vault_1_lg@2x.png -resize 1048x1048 vault_1_md@2x.png
+convert vault_2_lg@2x.png -resize 1048x1048 vault_2_md@2x.png
+convert vault_3_lg@2x.png -resize 1048x1048 vault_3_md@2x.png
+convert vault_4_lg@2x.png -resize 1048x1048 vault_4_md@2x.png
+convert vault_5_lg@2x.png -resize 1048x1048 vault_5_md@2x.png
+convert vault_6_lg@2x.png -resize 1048x1048 vault_6_md@2x.png
+convert vault_7_lg@2x.png -resize 1048x1048 vault_7_md@2x.png
+convert vault_8_lg@2x.png -resize 1048x1048 vault_8_md@2x.png
+convert vault_9_lg@2x.png -resize 1048x1048 vault_9_md@2x.png
+convert vault_10_lg@2x.png -resize 1048x1048 vault_10_md@2x.png
+
+
+convert vault_1_lg@2x.png -resize 524x524 vault_1_md.png
+convert vault_2_lg@2x.png -resize 524x524 vault_2_md.png
+convert vault_3_lg@2x.png -resize 524x524 vault_3_md.png
+convert vault_4_lg@2x.png -resize 524x524 vault_4_md.png
+convert vault_5_lg@2x.png -resize 524x524 vault_5_md.png
+convert vault_6_lg@2x.png -resize 524x524 vault_6_md.png
+convert vault_7_lg@2x.png -resize 524x524 vault_7_md.png
+convert vault_8_lg@2x.png -resize 524x524 vault_8_md.png
+convert vault_9_lg@2x.png -resize 524x524 vault_9_md.png
+convert vault_10_lg@2x.png -resize 524x524 vault_10_md.png
+
+
+convert vault_1_lg@2x.png -resize 352x352 vault_1_sm@2x.png
+convert vault_2_lg@2x.png -resize 352x352 vault_2_sm@2x.png
+convert vault_3_lg@2x.png -resize 352x352 vault_3_sm@2x.png
+convert vault_4_lg@2x.png -resize 352x352 vault_4_sm@2x.png
+convert vault_5_lg@2x.png -resize 352x352 vault_5_sm@2x.png
+convert vault_6_lg@2x.png -resize 352x352 vault_6_sm@2x.png
+convert vault_7_lg@2x.png -resize 352x352 vault_7_sm@2x.png
+convert vault_8_lg@2x.png -resize 352x352 vault_8_sm@2x.png
+convert vault_9_lg@2x.png -resize 352x352 vault_9_sm@2x.png
+convert vault_10_lg@2x.png -resize 352x352 vault_10_sm@2x.png
+
+
+convert vault_1_lg@2x.png -resize 176x176 vault_1_sm.png
+convert vault_2_lg@2x.png -resize 176x176 vault_2_sm.png
+convert vault_3_lg@2x.png -resize 176x176 vault_3_sm.png
+convert vault_4_lg@2x.png -resize 176x176 vault_4_sm.png
+convert vault_5_lg@2x.png -resize 176x176 vault_5_sm.png
+convert vault_6_lg@2x.png -resize 176x176 vault_6_sm.png
+convert vault_7_lg@2x.png -resize 176x176 vault_7_sm.png
+convert vault_8_lg@2x.png -resize 176x176 vault_8_sm.png
+convert vault_9_lg@2x.png -resize 176x176 vault_9_sm.png
+convert vault_10_lg@2x.png -resize 176x176 vault_10_sm.png
+
+
+
+
+#vaultWithDoor Large Retina
+
+composite -gravity center vaultDoor_lg@2x.png vault_1_lg@2x.png vaultWithDoor1_lg@2x.png 
+composite -gravity center vaultDoor_lg@2x.png vault_2_lg@2x.png vaultWithDoor2_lg@2x.png 
+composite -gravity center vaultDoor_lg@2x.png vault_3_lg@2x.png vaultWithDoor3_lg@2x.png 
+composite -gravity center vaultDoor_lg@2x.png vault_4_lg@2x.png vaultWithDoor4_lg@2x.png 
+composite -gravity center vaultDoor_lg@2x.png vault_5_lg@2x.png vaultWithDoor5_lg@2x.png 
+composite -gravity center vaultDoor_lg@2x.png vault_6_lg@2x.png vaultWithDoor6_lg@2x.png 
+composite -gravity center vaultDoor_lg@2x.png vault_7_lg@2x.png vaultWithDoor7_lg@2x.png 
+composite -gravity center vaultDoor_lg@2x.png vault_8_lg@2x.png vaultWithDoor8_lg@2x.png 
+composite -gravity center vaultDoor_lg@2x.png vault_9_lg@2x.png vaultWithDoor9_lg@2x.png 
+composite -gravity center vaultDoor_lg@2x.png vault_10_lg@2x.png vaultWithDoor10_lg@2x.png 
+
+
+#vaultWithDoor Large non-Retina
+
+convert vaultWithDoor1_lg@2x.png -resize 592x592 vaultWithDoor1_lg.png
+convert vaultWithDoor2_lg@2x.png -resize 592x592 vaultWithDoor2_lg.png
+convert vaultWithDoor3_lg@2x.png -resize 592x592 vaultWithDoor3_lg.png
+convert vaultWithDoor4_lg@2x.png -resize 592x592 vaultWithDoor4_lg.png
+convert vaultWithDoor5_lg@2x.png -resize 592x592 vaultWithDoor5_lg.png
+convert vaultWithDoor6_lg@2x.png -resize 592x592 vaultWithDoor6_lg.png
+convert vaultWithDoor7_lg@2x.png -resize 592x592 vaultWithDoor7_lg.png
+convert vaultWithDoor8_lg@2x.png -resize 592x592 vaultWithDoor8_lg.png
+convert vaultWithDoor9_lg@2x.png -resize 592x592 vaultWithDoor9_lg.png
+convert vaultWithDoor10_lg@2x.png -resize 592x592 vaultWithDoor10_lg.png
+
+
+#vaultWithDoor Small Retina
+
+convert vaultWithDoor1_lg@2x.png -resize 352x352 vaultWithDoor1_sm@2x.png
+convert vaultWithDoor2_lg@2x.png -resize 352x352 vaultWithDoor2_sm@2x.png
+convert vaultWithDoor3_lg@2x.png -resize 352x352 vaultWithDoor3_sm@2x.png
+convert vaultWithDoor4_lg@2x.png -resize 352x352 vaultWithDoor4_sm@2x.png
+convert vaultWithDoor5_lg@2x.png -resize 352x352 vaultWithDoor5_sm@2x.png
+convert vaultWithDoor6_lg@2x.png -resize 352x352 vaultWithDoor6_sm@2x.png
+convert vaultWithDoor7_lg@2x.png -resize 352x352 vaultWithDoor7_sm@2x.png
+convert vaultWithDoor8_lg@2x.png -resize 352x352 vaultWithDoor8_sm@2x.png
+convert vaultWithDoor9_lg@2x.png -resize 352x352 vaultWithDoor9_sm@2x.png
+convert vaultWithDoor10_lg@2x.png -resize 352x352 vaultWithDoor10_sm@2x.png
+
+
+#vaultWithDoor Small non-Retina
+
+convert vaultWithDoor1_lg@2x.png -resize 176x176 vaultWithDoor1_sm.png
+convert vaultWithDoor2_lg@2x.png -resize 176x176 vaultWithDoor2_sm.png
+convert vaultWithDoor3_lg@2x.png -resize 176x176 vaultWithDoor3_sm.png
+convert vaultWithDoor4_lg@2x.png -resize 176x176 vaultWithDoor4_sm.png
+convert vaultWithDoor5_lg@2x.png -resize 176x176 vaultWithDoor5_sm.png
+convert vaultWithDoor6_lg@2x.png -resize 176x176 vaultWithDoor6_sm.png
+convert vaultWithDoor7_lg@2x.png -resize 176x176 vaultWithDoor7_sm.png
+convert vaultWithDoor8_lg@2x.png -resize 176x176 vaultWithDoor8_sm.png
+convert vaultWithDoor9_lg@2x.png -resize 176x176 vaultWithDoor9_sm.png
+convert vaultWithDoor10_lg@2x.png -resize 176x176 vaultWithDoor10_sm.png
+
+
+
+
+#portfolio are just the plain vault, without a door
+
+#combo's comboDoor_md@2x.png is a special file with combo lock that was created earlier in GIMP
+
+composite -gravity center comboDoor_lg@2x.png vault_1_lg@2x.png combo1@2x.png 
+composite -gravity center comboDoor_lg@2x.png vault_2_lg@2x.png combo2@2x.png 
+composite -gravity center comboDoor_lg@2x.png vault_3_lg@2x.png combo3@2x.png 
+composite -gravity center comboDoor_lg@2x.png vault_4_lg@2x.png combo4@2x.png 
+composite -gravity center comboDoor_lg@2x.png vault_5_lg@2x.png combo5@2x.png 
+composite -gravity center comboDoor_lg@2x.png vault_6_lg@2x.png combo6@2x.png 
+composite -gravity center comboDoor_lg@2x.png vault_7_lg@2x.png combo7@2x.png 
+composite -gravity center comboDoor_lg@2x.png vault_8_lg@2x.png combo8@2x.png 
+composite -gravity center comboDoor_lg@2x.png vault_9_lg@2x.png combo9@2x.png 
+composite -gravity center comboDoor_lg@2x.png vault_10_lg@2x.png combo10@2x.png 
+
+
+composite -gravity center keypad_lg@2x.png vault_1_lg@2x.png keypad1@2x.png 
+composite -gravity center keypad_lg@2x.png vault_2_lg@2x.png keypad2@2x.png 
+composite -gravity center keypad_lg@2x.png vault_3_lg@2x.png keypad3@2x.png 
+composite -gravity center keypad_lg@2x.png vault_4_lg@2x.png keypad4@2x.png 
+composite -gravity center keypad_lg@2x.png vault_5_lg@2x.png keypad5@2x.png 
+composite -gravity center keypad_lg@2x.png vault_6_lg@2x.png keypad6@2x.png 
+composite -gravity center keypad_lg@2x.png vault_7_lg@2x.png keypad7@2x.png 
+composite -gravity center keypad_lg@2x.png vault_8_lg@2x.png keypad8@2x.png 
+composite -gravity center keypad_lg@2x.png vault_9_lg@2x.png keypad9@2x.png 
+composite -gravity center keypad_lg@2x.png vault_10_lg@2x.png keypad10@2x.png 
+
+
+
+
+convert combo1@2x.png -resize 592x592 combo1.png
+convert combo2@2x.png -resize 592x592 combo2.png
+convert combo3@2x.png -resize 592x592 combo3.png
+convert combo4@2x.png -resize 592x592 combo4.png
+convert combo5@2x.png -resize 592x592 combo5.png
+convert combo6@2x.png -resize 592x592 combo6.png
+convert combo7@2x.png -resize 592x592 combo7.png
+convert combo8@2x.png -resize 592x592 combo8.png
+convert combo9@2x.png -resize 592x592 combo9.png
+convert combo10@2x.png -resize 592x592 combo10.png
+
+convert keypad1@2x.png -resize 592x592 keypad1.png
+convert keypad2@2x.png -resize 592x592 keypad2.png
+convert keypad3@2x.png -resize 592x592 keypad3.png
+convert keypad4@2x.png -resize 592x592 keypad4.png
+convert keypad5@2x.png -resize 592x592 keypad5.png
+convert keypad6@2x.png -resize 592x592 keypad6.png
+convert keypad7@2x.png -resize 592x592 keypad7.png
+convert keypad8@2x.png -resize 592x592 keypad8.png
+convert keypad9@2x.png -resize 592x592 keypad9.png
+convert keypad10@2x.png -resize 592x592 keypad10.png
+
+#Other newly missing non-Retina images
+convert alphabetical_ico@2x.png -resize 50% alphabetical_ico.png
+convert back_ico@2x.png -resize 50% back_ico.png
+convert background@2x.png -resize 50% background.png
+convert bonds_ico@2x.png -resize 50% bonds_ico.png
+convert bottomBtn@2x.png -resize 50% bottomBtn.png
+convert bottomBtn_active@2x.png -resize 50% bottomBtn_active.png
+convert btn_black@2x.png -resize 50% btn_black.png
+convert btn_blue_@2x.png -resize 50% btn_blue_.png
+convert btn_cyan@2x.png -resize 50% btn_cyan.png
+convert btn_ghost@2x.png -resize 50% btn_ghost.png
+convert btn_green@2x.png -resize 50% btn_green.png
+convert btn_lavender@2x.png -resize 50% btn_lavender.png
+convert btn_orange@2x.png -resize 50% btn_orange.png
+convert btn_pink@2x.png -resize 50% btn_pink.png
+convert btn_purple@2x.png -resize 50% btn_purple.png
+convert btn_red@2x.png -resize 50% btn_red.png
+convert btn_yellow@2x.png -resize 50% btn_yellow.png
+convert chartPeriod_ico@2x.png -resize 50% chartPeriod_ico.png
+convert chart_bg@2x.png -resize 50% chart_bg.png
+convert chat_ico@2x.png -resize 50% chat_ico.png
+convert compare_ico@2x.png -resize 50% compare_ico.png
+convert componentOverlay_lg@2x.png -resize 50% componentOverlay_lg.png
+convert componentOverlay_sm@2x.png -resize 50% componentOverlay_sm.png
+convert component_10_lg@2x.png -resize 50% component_10_lg.png
+convert component_10_sm@2x.png -resize 50% component_10_sm.png
+convert component_11_lg@2x.png -resize 50% component_11_lg.png
+convert component_11_sm@2x.png -resize 50% component_11_sm.png
+convert component_12_lg@2x.png -resize 50% component_12_lg.png
+convert component_12_sm@2x.png -resize 50% component_12_sm.png
+convert component_13_lg@2x.png -resize 50% component_13_lg.png
+convert component_13_sm@2x.png -resize 50% component_13_sm.png
+convert component_14_lg@2x.png -resize 50% component_14_lg.png
+convert component_14_sm@2x.png -resize 50% component_14_sm.png
+convert component_15_lg@2x.png -resize 50% component_15_lg.png
+convert component_15_sm@2x.png -resize 50% component_15_sm.png
+convert component_16_lg@2x.png -resize 50% component_16_lg.png
+convert component_16_sm@2x.png -resize 50% component_16_sm.png
+convert component_17_lg@2x.png -resize 50% component_17_lg.png
+convert component_17_sm@2x.png -resize 50% component_17_sm.png
+convert component_18_lg@2x.png -resize 50% component_18_lg.png
+convert component_18_sm@2x.png -resize 50% component_18_sm.png
+convert component_19_lg@2x.png -resize 50% component_19_lg.png
+convert component_19_sm@2x.png -resize 50% component_19_sm.png
+convert component_1_lg@2x.png -resize 50% component_1_lg.png
+convert component_1_sm@2x.png -resize 50% component_1_sm.png
+convert component_20_lg@2x.png -resize 50% component_20_lg.png
+convert component_20_sm@2x.png -resize 50% component_20_sm.png
+convert component_2_lg@2x.png -resize 50% component_2_lg.png
+convert component_2_sm@2x.png -resize 50% component_2_sm.png
+convert component_3_lg@2x.png -resize 50% component_3_lg.png
+convert component_3_sm@2x.png -resize 50% component_3_sm.png
+convert component_4_lg@2x.png -resize 50% component_4_lg.png
+convert component_4_sm@2x.png -resize 50% component_4_sm.png
+convert component_5_lg@2x.png -resize 50% component_5_lg.png
+convert component_5_sm@2x.png -resize 50% component_5_sm.png
+convert component_6_lg@2x.png -resize 50% component_6_lg.png
+convert component_6_sm@2x.png -resize 50% component_6_sm.png
+convert component_7_lg@2x.png -resize 50% component_7_lg.png
+convert component_7_sm@2x.png -resize 50% component_7_sm.png
+convert component_8_lg@2x.png -resize 50% component_8_lg.png
+convert component_8_sm@2x.png -resize 50% component_8_sm.png
+convert component_9_lg@2x.png -resize 50% component_9_lg.png
+convert component_9_sm@2x.png -resize 50% component_9_sm.png
+convert component_diamond@2x.png -resize 50% component_diamond.png
+convert country_ico@2x.png -resize 50% country_ico.png
+convert currencies_ico@2x.png -resize 50% currencies_ico.png
+convert dividend_ico@2x.png -resize 50% dividend_ico.png
+convert dot_center_blue@2x.png -resize 50% dot_center_blue.png
+convert dot_center_grey@2x.png -resize 50% dot_center_grey.png
+convert dot_right_blue@2x.png -resize 50% dot_right_blue.png
+convert dot_right_grey@2x.png -resize 50% dot_right_grey.png
+convert etfs_ico@2x.png -resize 50% etfs_ico.png
+convert export_ico@2x.png -resize 50% export_ico.png
+convert field_left@2x.png -resize 50% field_left.png
+convert field_middle@2x.png -resize 50% field_middle.png
+convert field_right@2x.png -resize 50% field_right.png
+convert folder1_black@2x.png -resize 50% folder1_black.png
+convert folder1_blue@2x.png -resize 50% folder1_blue.png
+convert folder1_cyan@2x.png -resize 50% folder1_cyan.png
+convert folder1_ghost@2x.png -resize 50% folder1_ghost.png
+convert folder1_green@2x.png -resize 50% folder1_green.png
+convert folder1_lavender@2x.png -resize 50% folder1_lavender.png
+convert folder1_orange@2x.png -resize 50% folder1_orange.png
+convert folder1_pink@2x.png -resize 50% folder1_pink.png
+convert folder1_purple@2x.png -resize 50% folder1_purple.png
+convert folder1_red@2x.png -resize 50% folder1_red.png
+convert folder1_yellow@2x.png -resize 50% folder1_yellow.png
+convert folder2_black@2x.png -resize 50% folder2_black.png
+convert folder2_blue@2x.png -resize 50% folder2_blue.png
+convert folder2_cyan@2x.png -resize 50% folder2_cyan.png
+convert folder2_green@2x.png -resize 50% folder2_green.png
+convert folder2_lavender@2x.png -resize 50% folder2_lavender.png
+convert folder2_orange@2x.png -resize 50% folder2_orange.png
+convert folder2_pink@2x.png -resize 50% folder2_pink.png
+convert folder2_purple@2x.png -resize 50% folder2_purple.png
+convert folder2_red@2x.png -resize 50% folder2_red.png
+convert folder2_yellow@2x.png -resize 50% folder2_yellow.png
+convert gear_ico@2x.png -resize 50% gear_ico.png
+convert info_ico@2x.png -resize 50% info_ico.png
+convert key@2x.png -resize 50% key.png
+convert leftBtn@2x.png -resize 50% leftBtn.png
+convert logo@2x.png -resize 50% logo.png
+convert marketCap_ico@2x.png -resize 50% marketCap_ico.png
+convert mietf2_ico@2x.png -resize 50% mietf2_ico.png
+convert mietfStore_ico@2x.png -resize 50% mietfStore_ico.png
+convert mietf_ico@2x.png -resize 50% mietf_ico.png
+convert mietfs_ico@2x.png -resize 50% mietfs_ico.png
+convert news_ico@2x.png -resize 50% news_ico.png
+convert no_btn@2x.png -resize 50% no_btn.png
+convert pe_ico@2x.png -resize 50% pe_ico.png
+convert popup_bg@2x.png -resize 50% popup_bg.png
+convert random_ico@2x.png -resize 50% random_ico.png
+convert refresh_ico@2x.png -resize 50% refresh_ico.png
+convert search_ico@2x.png -resize 50% search_ico.png
+convert sector_sphere@2x.png -resize 50% sector_sphere.png
+convert sellMietf_ico@2x.png -resize 50% sellMietf_ico.png
+convert snap_ico@2x.png -resize 50% snap_ico.png
+convert snapshot_ico@2x.png -resize 50% snapshot_ico.png
+convert sp_ico@2x.png -resize 50% sp_ico.png
+convert stocks_ico@2x.png -resize 50% stocks_ico.png
+convert toggle@2x.png -resize 50% toggle.png
+convert toggle_black@2x.png -resize 50% toggle_black.png
+convert toggle_blue@2x.png -resize 50% toggle_blue.png
+convert toggle_cyan@2x.png -resize 50% toggle_cyan.png
+convert toggle_ghost@2x.png -resize 50% toggle_ghost.png
+convert toggle_green@2x.png -resize 50% toggle_green.png
+convert toggle_lavender@2x.png -resize 50% toggle_lavender.png
+convert toggle_orange@2x.png -resize 50% toggle_orange.png
+convert toggle_pink@2x.png -resize 50% toggle_pink.png
+convert toggle_purple@2x.png -resize 50% toggle_purple.png
+convert toggle_red@2x.png -resize 50% toggle_red.png
+convert toggle_yellow@2x.png -resize 50% toggle_yellow.png
+convert undo_ico@2x.png -resize 50% undo_ico.png
+convert unlockOverlay@2x.png -resize 50% unlockOverlay.png
+convert vaultDoor_lg@2x.png -resize 50% vaultDoor_lg.png
+convert vaultDoor_md@2x.png -resize 50% vaultDoor_md.png
+convert vaultDoor_sm@2x.png -resize 50% vaultDoor_sm.png
+convert vaultHandle_lg@2x.png -resize 50% vaultHandle_lg.png
+convert vaultHandle_md@2x.png -resize 50% vaultHandle_md.png
+convert vaultHandle_sm@2x.png -resize 50% vaultHandle_sm.png
+convert vault_black_lg@2x.png -resize 50% vault_black_lg.png
+convert vault_black_sm@2x.png -resize 50% vault_black_sm.png
+convert vault_blue_lg@2x.png -resize 50% vault_blue_lg.png
+convert vault_blue_sm@2x.png -resize 50% vault_blue_sm.png
+convert vault_cyan_lg@2x.png -resize 50% vault_cyan_lg.png
+convert vault_cyan_sm@2x.png -resize 50% vault_cyan_sm.png
+convert vault_ghost_lg@2x.png -resize 50% vault_ghost_lg.png
+convert vault_ghost_sm@2x.png -resize 50% vault_ghost_sm.png
+convert vault_green_lg@2x.png -resize 50% vault_green_lg.png
+convert vault_green_sm@2x.png -resize 50% vault_green_sm.png
+convert vault_lavender_lg@2x.png -resize 50% vault_lavender_lg.png
+convert vault_lavender_sm@2x.png -resize 50% vault_lavender_sm.png
+convert vault_orange_lg@2x.png -resize 50% vault_orange_lg.png
+convert vault_orange_sm@2x.png -resize 50% vault_orange_sm.png
+convert vault_pink_lg@2x.png -resize 50% vault_pink_lg.png
+convert vault_pink_sm@2x.png -resize 50% vault_pink_sm.png
+convert vault_purple_lg@2x.png -resize 50% vault_purple_lg.png
+convert vault_purple_sm@2x.png -resize 50% vault_purple_sm.png
+convert vault_red_lg@2x.png -resize 50% vault_red_lg.png
+convert vault_red_sm@2x.png -resize 50% vault_red_sm.png
+convert vault_yellow_lg@2x.png -resize 50% vault_yellow_lg.png
+convert vault_yellow_sm@2x.png -resize 50% vault_yellow_sm.png
+convert vaultbg_black_lg@2x.png -resize 50% vaultbg_black_lg.png
+convert vaultbg_black_sm@2x.png -resize 50% vaultbg_black_sm.png
+convert vaultbg_blue_lg@2x.png -resize 50% vaultbg_blue_lg.png
+convert vaultbg_blue_sm@2x.png -resize 50% vaultbg_blue_sm.png
+convert vaultbg_cyan_lg@2x.png -resize 50% vaultbg_cyan_lg.png
+convert vaultbg_cyan_sm@2x.png -resize 50% vaultbg_cyan_sm.png
+convert vaultbg_ghost_lg@2x.png -resize 50% vaultbg_ghost_lg.png
+convert vaultbg_green_lg@2x.png -resize 50% vaultbg_green_lgv
+convert vaultbg_green_sm@2x.png -resize 50% vaultbg_green_sm.png
+convert vaultbg_lavender_lg@2x.png -resize 50% vaultbg_lavender_lg.png
+convert vaultbg_lavender_sm@2x.png -resize 50% vaultbg_lavender_sm.png
+convert vaultbg_orange_lg@2x.png -resize 50% vaultbg_orange_lg.png
+convert vaultbg_orange_sm@2x.png -resize 50% vaultbg_orange_sm.png
+convert vaultbg_pink_lg@2x.png -resize 50% vaultbg_pink_lg.png
+convert vaultbg_pink_sm@2x.png -resize 50% vaultbg_pink_sm.png
+convert vaultbg_purple_lg@2x.png -resize 50% vaultbg_purple_lg.png
+convert vaultbg_purple_sm@2x.png -resize 50% vaultbg_purple_sm.png
+convert vaultbg_red_lg@2x.png -resize 50% vaultbg_red_lg.png
+convert vaultbg_red_sm@2x.png -resize 50% vaultbg_red_sm.png
+convert vaultbg_yellow_lg@2x.png -resize 50% vaultbg_yellow_lg.png
+convert vaultbg_yellow_sm@2x.png -resize 50% vaultbg_yellow_sm.png
+convert volume_ico@2x.png -resize 50% volume_ico.png
+convert whitesheet@2x.png -resize 50% whitesheet.png
+convert yes_btn@2x.png -resize 50% yes_btn.png
+
+

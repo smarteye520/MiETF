@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="win">
+    <!-- main -->
+    <View id="container">	    
+    		<View id="titleBar">
+    			<Label id="titleLabel"></Label>
+    			<View id="x" onClick="close"></View>
+    		</View>
+    		<WebView id="webView" url="http://www.yahoo.com"></WebView>	
+    </View>   
+	</Window>
+</Alloy>

@@ -1,0 +1,100 @@
+".container": {
+	//width : 632,
+	left : 0,
+	height : 32,
+	//top: 50
+	top: 5
+}
+
+".btn": {
+	style : Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	borderRadius : 10,
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : 16,
+		fontWeight : 'bold'
+	},
+	backgroundGradient : {
+		type : 'linear',
+		//colors : mietf.colors[colorCount], //['#57585d','#767676'],
+		startPoint : {
+			x : 0,
+			y : 0
+		},
+		endPoint : {
+			x : 1,
+			y : 50
+		},
+		backFillStart : false
+	},
+	borderWidth : 2,
+	//borderColor : mietf.colors[colorCount][0],
+	//width : 432,
+	width: Titanium.UI.FILL,
+	left : 0,
+	height : 32,
+	//top : top
+}
+
+"#contValues": {
+	layout: "horizontal",
+	left : 226
+}
+
+"#greyView1s":{
+	backgroundColor : '#58595e',
+	width : 112,
+	left : 216,
+	height : 32,
+	// /top : top,
+	zIndex : 10
+}
+
+"#greyView2s":{
+	backgroundColor : '#58595e',
+	width : 72,
+	left : 336,
+	height : 32,
+	//top : top,
+	zIndex : 10
+}
+
+"#PercentNum": {
+	right : 74,
+	top : 8,
+	color : '#white',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '13sp',
+		fontWeight : 'bold'
+	},
+	textAlign : Ti.UI.TEXT_ALIGNMENT_CENTER,
+	touchEnabled : false
+}
+
+"#startUnitPrice": {
+	right : 12,
+	top : 8,
+	color : '#white',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '13sp',
+		fontWeight : 'bold'
+	},
+	textAlign : Ti.UI.TEXT_ALIGNMENT_CENTER,
+	touchEnabled : false
+}
+
+"#ticker": {
+	left : 10,
+	top : 8,
+	color : '#white',
+	font : {
+		fontFamily : 'AvenirNextCondensed-Bold',
+		fontSize : '13sp',
+		fontWeight : 'bold'
+	},
+	textAlign : Ti.UI.TEXT_ALIGNMENT_LEFT,
+	touchEnabled : false,
+	width : 194
+}

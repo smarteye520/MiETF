@@ -1,0 +1,18 @@
+<Alloy>
+	<!-->
+	<View id="mainHolder" class="container">
+		<View id="holder">
+			<View id="layer1"></View>
+			<View id="layer2"></View>
+			<View id="layer3"></View>
+			<View id="layer4"></View>
+			<View id="topper">
+				<Label id="percentText">20</Label>
+			</View>
+		</View>
+	</View>
+-->
+	<View id="mainView" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+		
+	</View>
+</Alloy>
